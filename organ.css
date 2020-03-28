@@ -1,0 +1,20 @@
+#body{background-color: beige}
+.box{margin:0% auto 40% auto; width: 90%; background-color: #2a9ead;}
+.box .box-item{
+    border-bottom: antiquewhite;
+    color: aquamarine;
+}
+.box .title{
+    margin: 0;
+    padding: 1%;
+    background-color: aliceblue;
+}
+.box-item-content{
+    height: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+    margin: 1px;
+}
+.box:hover .box-item:hover .box-item-content{
+    height: 20%;
+}
